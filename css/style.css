@@ -1,0 +1,62 @@
+.myimage {
+	background: transparent url("images/background.jpg") no-repeat top center fixed;
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+#profileBackground {
+	padding:20px;
+	background-color: rgba(000,000,000,0.8);
+	width:100%;
+	box-shadow: 0 0 5px black;
+}
+#profileBackground p,h3,ul {
+	color: white;
+	text-align: justify;
+}
+.headline {
+	padding-top: 100px;
+	text-shadow:
+	-1px -1px 0 #fff,  
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
+.headline h1{
+
+	font-size: 100px;
+}
+@media screen and (max-width: 480px){
+	.headline{
+		padding-top:0px;
+	}
+	.headline h1{
+		font-size: 50px;
+	}
+	.headline h2{
+		font-size: 20px;
+	}
+	.navbar-fixed-bottom{
+		position:relative;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbar-fixed-bottom{
+		position:relative;
+		padding-top: 100px;
+	}
+}
+footer{
+	text-align:center;
+}
+.btn .fa {
+	font-size:2em;
+}
